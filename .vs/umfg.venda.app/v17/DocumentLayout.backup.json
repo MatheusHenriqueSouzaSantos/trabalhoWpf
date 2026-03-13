@@ -1,0 +1,40 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mathe\\OneDrive\\Desktop\\umfg.venda.app\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{620F96D0-973B-D132-D15E-995341BD21F2}|umfg.venda.app.csproj|c:\\users\\mathe\\onedrive\\desktop\\umfg.venda.app\\usercontrols\\ucreceberpedido.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{620F96D0-973B-D132-D15E-995341BD21F2}|umfg.venda.app.csproj|solutionrelative:usercontrols\\ucreceberpedido.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ucReceberPedido.xaml",
+              "DocumentMoniker": "C:\\Users\\mathe\\OneDrive\\Desktop\\umfg.venda.app\\UserControls\\ucReceberPedido.xaml",
+              "RelativeDocumentMoniker": "UserControls\\ucReceberPedido.xaml",
+              "ToolTip": "C:\\Users\\mathe\\OneDrive\\Desktop\\umfg.venda.app\\UserControls\\ucReceberPedido.xaml",
+              "RelativeToolTip": "UserControls\\ucReceberPedido.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-13T19:50:45.535Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
