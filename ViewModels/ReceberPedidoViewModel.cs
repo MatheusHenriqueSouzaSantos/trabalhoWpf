@@ -20,6 +20,8 @@ namespace umfg.venda.app.ViewModels
         private DateTime _dataValidade = DateTime.Now;
         private string _nomeCartao;
 
+        public bool IsPedidoRecebido { get; private set; }=false;
+
         public string NumeroCartao 
         {
             get => _numeroCartao;
@@ -63,7 +65,7 @@ namespace umfg.venda.app.ViewModels
 
         public void voltarTelaPrincipal()
         {
-            UserControl = new ucHome(MainWindow);
+            IsPedidoRecebido=true;
             Notify();
         }
     }

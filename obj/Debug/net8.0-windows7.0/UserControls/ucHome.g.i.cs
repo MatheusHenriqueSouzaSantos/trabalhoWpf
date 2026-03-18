@@ -53,7 +53,7 @@ namespace umfg.venda.app.UserControls {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/umfg.venda.app;V1.0.0.0;component/usercontrols/uchome.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/umfg.venda.app;component/usercontrols/uchome.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\UserControls\ucHome.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
