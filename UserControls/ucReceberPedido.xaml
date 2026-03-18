@@ -141,13 +141,13 @@
 
                 <TextBlock Text="Nome no Cartão" FontSize="24" FontWeight="SemiBold"/>
                 <TextBox 
-                    Text="{Binding Nome, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                    Text="{Binding NomeCartao, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
                     FontSize="24"
                     FontWeight="SemiBold"/>
                 <Button
                     Content="_Receber"
                     CommandParameter="{Binding}"
-                    Command="{Binding Receber}"
+                    Command="{Binding ReceberPagamento}"
                     Style="{StaticResource MaterialDesignRaisedLightButton}"
                     Margin="0 5 10 0 "
                     Background="#008000"

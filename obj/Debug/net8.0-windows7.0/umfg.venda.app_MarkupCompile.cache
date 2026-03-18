@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
 C:\Users\mathe\OneDrive\Desktop\umfg.venda.app\App.xaml
-3-1161229769
+41980579551
 26-1629064148
-221922043252
+23323991262
 2011013044044
-MainWindow.xaml;UserControls\ucListarProdutos.xaml;UserControls\ucReceberPedido.xaml;
+MainWindow.xaml;UserControls\ucHome.xaml;UserControls\ucListarProdutos.xaml;UserControls\ucReceberPedido.xaml;
 
 False
 

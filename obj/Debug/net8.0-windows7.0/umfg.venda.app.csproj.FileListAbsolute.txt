@@ -69,3 +69,6 @@ C:\Users\mathe\OneDrive\Desktop\umfg.venda.app\obj\Debug\net8.0-windows7.0\refin
 C:\Users\mathe\OneDrive\Desktop\umfg.venda.app\obj\Debug\net8.0-windows7.0\umfg.venda.app.pdb
 C:\Users\mathe\OneDrive\Desktop\umfg.venda.app\obj\Debug\net8.0-windows7.0\umfg.venda.app.genruntimeconfig.cache
 C:\Users\mathe\OneDrive\Desktop\umfg.venda.app\obj\Debug\net8.0-windows7.0\ref\umfg.venda.app.dll
+C:\Users\mathe\OneDrive\Desktop\umfg.venda.app\obj\Debug\net8.0-windows7.0\umfg.venda.app.sourcelink.json
+C:\Users\mathe\OneDrive\Desktop\umfg.venda.app\obj\Debug\net8.0-windows7.0\UserControls\ucHome.g.cs
+C:\Users\mathe\OneDrive\Desktop\umfg.venda.app\obj\Debug\net8.0-windows7.0\UserControls\ucHome.baml

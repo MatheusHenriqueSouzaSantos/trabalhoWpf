@@ -24,6 +24,7 @@ namespace umfg.venda.app.ViewModels
 
         public MainWindowViewModel() : base("UMFG - Tela Pricipal")
         {
+            Add(this);
         }
 
         public void Update(ISubject subject)
@@ -31,8 +32,12 @@ namespace umfg.venda.app.ViewModels
             if (subject is ListarProdutosViewModel)
                 UserControl = (subject as ListarProdutosViewModel).UserControl;
 
+
+            //verificar condição pois a uc de receber pedido pode ser tanto receber pedido ou pode ser o home como verificar o tipo do uc e mandar
             if (subject is ReceberPedidoViewModel)
+                if((subject as ReceberPedidoViewModel).UserControl==)
                 UserControl = (subject as ReceberPedidoViewModel).UserControl;
+
         }
     }
 }

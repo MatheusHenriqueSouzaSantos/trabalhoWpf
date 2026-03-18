@@ -8,16 +8,17 @@ using umfg.venda.app.Abstracts;
 using umfg.venda.app.Commands;
 using umfg.venda.app.Interfaces;
 using umfg.venda.app.Models;
+using umfg.venda.app.UserControls;
 
 namespace umfg.venda.app.ViewModels
 {
     internal sealed class ReceberPedidoViewModel : AbstractViewModel
     {
         private PedidoModel _pedido = new();
-        private string _numeroCartao = "";
-        private string _cvv = "";
+        private string _numeroCartao;
+        private string _cvv ;
         private DateTime _dataValidade = DateTime.Now;
-        private string _nomeCartao = string.Empty;
+        private string _nomeCartao;
 
         public string NumeroCartao 
         {
@@ -49,7 +50,7 @@ namespace umfg.venda.app.ViewModels
             set => SetField(ref _pedido, value);
         }
 
-        public ReceberPedidoCommand ReceberPagamento { get; set; } = new();
+        public ReceberPagamento ReceberPagamento { get; set; } = new();
         public ReceberPedidoViewModel(UserControl userControl, IObserver observer, PedidoModel pedido) 
             : base("Receber Pedido")
         {
@@ -58,6 +59,12 @@ namespace umfg.venda.app.ViewModels
             Pedido = pedido ?? throw new ArgumentNullException(nameof(pedido));
 
             Add(observer);
+        }
+
+        public void voltarTelaPrincipal()
+        {
+            UserControl = new ucHome();
+            Notify();
         }
     }
 }
