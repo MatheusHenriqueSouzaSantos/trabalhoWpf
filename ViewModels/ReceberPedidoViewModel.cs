@@ -63,7 +63,7 @@ namespace umfg.venda.app.ViewModels
 
         public void voltarTelaPrincipal()
         {
-            UserControl = new ucHome();
+            UserControl = new ucHome(MainWindow);
             Notify();
         }
     }

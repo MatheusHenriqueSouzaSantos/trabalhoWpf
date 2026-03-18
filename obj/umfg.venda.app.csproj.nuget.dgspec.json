@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mathe\\OneDrive\\Desktop\\umfg.venda.app\\umfg.venda.app.csproj": {}
+    "C:\\Users\\facec.lab04\\Desktop\\trabalhoWpf\\umfg.venda.app.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mathe\\OneDrive\\Desktop\\umfg.venda.app\\umfg.venda.app.csproj": {
+    "C:\\Users\\facec.lab04\\Desktop\\trabalhoWpf\\umfg.venda.app.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mathe\\OneDrive\\Desktop\\umfg.venda.app\\umfg.venda.app.csproj",
+        "projectUniqueName": "C:\\Users\\facec.lab04\\Desktop\\trabalhoWpf\\umfg.venda.app.csproj",
         "projectName": "umfg.venda.app",
-        "projectPath": "C:\\Users\\mathe\\OneDrive\\Desktop\\umfg.venda.app\\umfg.venda.app.csproj",
-        "packagesPath": "C:\\Users\\mathe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mathe\\OneDrive\\Desktop\\umfg.venda.app\\obj\\",
+        "projectPath": "C:\\Users\\facec.lab04\\Desktop\\trabalhoWpf\\umfg.venda.app.csproj",
+        "packagesPath": "C:\\Users\\facec.lab04\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\facec.lab04\\Desktop\\trabalhoWpf\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\mathe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\facec.lab04\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -79,7 +79,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.307/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

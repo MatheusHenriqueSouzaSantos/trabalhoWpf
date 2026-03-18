@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using umfg.venda.app.Interfaces;
 using umfg.venda.app.ViewModels;
 
 namespace umfg.venda.app.UserControls
@@ -21,10 +22,10 @@ namespace umfg.venda.app.UserControls
     /// </summary>
     public partial class ucHome : UserControl
     {
-        public ucHome()
+        internal ucHome(IObserver observer)
         {
             InitializeComponent();
-            DataContext = new MainWindowViewModel();
+            DataContext = observer;
         }
     }
 }

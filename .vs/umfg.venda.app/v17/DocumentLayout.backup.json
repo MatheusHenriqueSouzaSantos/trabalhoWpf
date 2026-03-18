@@ -1,16 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\mathe\\OneDrive\\Desktop\\umfg.venda.app\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{620F96D0-973B-D132-D15E-995341BD21F2}|umfg.venda.app.csproj|c:\\users\\mathe\\onedrive\\desktop\\umfg.venda.app\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{620F96D0-973B-D132-D15E-995341BD21F2}|umfg.venda.app.csproj|solutionrelative:viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{620F96D0-973B-D132-D15E-995341BD21F2}|umfg.venda.app.csproj|c:\\users\\mathe\\onedrive\\desktop\\umfg.venda.app\\commands\\receberpagamentocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{620F96D0-973B-D132-D15E-995341BD21F2}|umfg.venda.app.csproj|solutionrelative:commands\\receberpagamentocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
@@ -18,37 +9,11 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainWindowViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\mathe\\OneDrive\\Desktop\\umfg.venda.app\\ViewModels\\MainWindowViewModel.cs",
-              "RelativeDocumentMoniker": "ViewModels\\MainWindowViewModel.cs",
-              "ToolTip": "C:\\Users\\mathe\\OneDrive\\Desktop\\umfg.venda.app\\ViewModels\\MainWindowViewModel.cs",
-              "RelativeToolTip": "ViewModels\\MainWindowViewModel.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAIA6wBIAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-18T19:29:14.272Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ReceberPagamentoCommand.cs",
-              "DocumentMoniker": "C:\\Users\\mathe\\OneDrive\\Desktop\\umfg.venda.app\\Commands\\ReceberPagamentoCommand.cs",
-              "RelativeDocumentMoniker": "Commands\\ReceberPagamentoCommand.cs",
-              "ToolTip": "C:\\Users\\mathe\\OneDrive\\Desktop\\umfg.venda.app\\Commands\\ReceberPagamentoCommand.cs",
-              "RelativeToolTip": "Commands\\ReceberPagamentoCommand.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAAwEIAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-18T19:26:31.158Z",
-              "EditorCaption": ""
             }
           ]
         }
