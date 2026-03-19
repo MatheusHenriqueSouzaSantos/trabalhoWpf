@@ -24,7 +24,6 @@ namespace umfg.venda.app.ViewModels
 
         public MainWindowViewModel() : base("UMFG - Tela Pricipal")
         {
-            Add(this);
         }
 
         public void Update(ISubject subject)

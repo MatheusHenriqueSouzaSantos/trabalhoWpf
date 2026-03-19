@@ -3,14 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\facec.lab04\\Desktop\\trabalhoWpf\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{620F96D0-973B-D132-D15E-995341BD21F2}|umfg.venda.app.csproj|c:\\users\\facec.lab04\\desktop\\trabalhowpf\\viewmodels\\receberpedidoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{620F96D0-973B-D132-D15E-995341BD21F2}|umfg.venda.app.csproj|solutionrelative:viewmodels\\receberpedidoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{620F96D0-973B-D132-D15E-995341BD21F2}|umfg.venda.app.csproj|c:\\users\\facec.lab04\\desktop\\trabalhowpf\\commands\\receberpagamentocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{620F96D0-973B-D132-D15E-995341BD21F2}|umfg.venda.app.csproj|solutionrelative:commands\\receberpagamentocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{620F96D0-973B-D132-D15E-995341BD21F2}|umfg.venda.app.csproj|c:\\users\\facec.lab04\\desktop\\trabalhowpf\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{620F96D0-973B-D132-D15E-995341BD21F2}|umfg.venda.app.csproj|solutionrelative:viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -22,45 +14,19 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ReceberPagamentoCommand.cs",
-              "DocumentMoniker": "C:\\Users\\facec.lab04\\Desktop\\trabalhoWpf\\Commands\\ReceberPagamentoCommand.cs",
-              "RelativeDocumentMoniker": "Commands\\ReceberPagamentoCommand.cs",
-              "ToolTip": "C:\\Users\\facec.lab04\\Desktop\\trabalhoWpf\\Commands\\ReceberPagamentoCommand.cs",
-              "RelativeToolTip": "Commands\\ReceberPagamentoCommand.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAAD4AAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-18T23:37:04.126Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "MainWindowViewModel.cs",
               "DocumentMoniker": "C:\\Users\\facec.lab04\\Desktop\\trabalhoWpf\\ViewModels\\MainWindowViewModel.cs",
               "RelativeDocumentMoniker": "ViewModels\\MainWindowViewModel.cs",
               "ToolTip": "C:\\Users\\facec.lab04\\Desktop\\trabalhoWpf\\ViewModels\\MainWindowViewModel.cs",
               "RelativeToolTip": "ViewModels\\MainWindowViewModel.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAwwC8AAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-18T23:30:50.332Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ReceberPedidoViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\facec.lab04\\Desktop\\trabalhoWpf\\ViewModels\\ReceberPedidoViewModel.cs",
-              "RelativeDocumentMoniker": "ViewModels\\ReceberPedidoViewModel.cs",
-              "ToolTip": "C:\\Users\\facec.lab04\\Desktop\\trabalhoWpf\\ViewModels\\ReceberPedidoViewModel.cs",
-              "RelativeToolTip": "ViewModels\\ReceberPedidoViewModel.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAwwEMAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-18T23:29:29.933Z",
+              "WhenOpened": "2026-03-19T00:08:38.192Z",
               "EditorCaption": ""
             }
           ]
