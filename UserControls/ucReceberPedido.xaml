@@ -133,11 +133,17 @@
                     FontWeight="SemiBold"/>
 
                 <TextBlock Text="Data de Validade (MM/yy)" FontSize="24" FontWeight="SemiBold"/>
+                <StackPanel Orientation="Horizontal">
+                    <ComboBox
+                        Width="200"
+                        ItemsSource="{Binding OpcoesDeMes}"
+                        SelectedItem="{Binding MesSelecionado}"/>
 
-                <DatePicker 
-                    SelectedDate="{Binding DataValidade, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
-                    FontSize="24"
-                    FontWeight="SemiBold"/>
+                    <ComboBox
+                        Width="200"
+                        ItemsSource="{Binding OpcoesDeAno}"
+                        SelectedItem="{Binding AnoSelecionado}"/>
+                </StackPanel>
 
                 <TextBlock Text="Nome no Cartão" FontSize="24" FontWeight="SemiBold"/>
                 <TextBox 
@@ -147,7 +153,7 @@
                 <Button
                     Content="_Receber"
                     CommandParameter="{Binding}"
-                    Command="{Binding ReceberPagamento}"
+                    Command="{Binding FinalizarPagamento}"
                     Style="{StaticResource MaterialDesignRaisedLightButton}"
                     Margin="0 5 10 0 "
                     Background="#008000"

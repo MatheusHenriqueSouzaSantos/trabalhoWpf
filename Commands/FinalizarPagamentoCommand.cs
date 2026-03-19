@@ -10,12 +10,12 @@ using umfg.venda.app.ViewModels;
 
 namespace umfg.venda.app.Commands
 {
-    internal class ReceberPagamento : AbstractCommand
+    internal class FinalizarPagamentoCommand : AbstractCommand
     {
         public override void Execute(object? parameter)
         {
             ReceberPedidoViewModel vm= (ReceberPedidoViewModel)parameter;
-
+            definirDataDeValidadeDoCartao(vm);
             if (vm.NumeroCartao == null)
             {
                 MessageBox.Show("O Campo Numero no cartão é obrigatório!");
@@ -47,7 +47,7 @@ namespace umfg.venda.app.Commands
                 return;
             }
 
-            if (vm.DataValidade < DateTime.Today)
+            if (vm.DataValidade < new DateTime(DateTime.Now.Year,DateTime.Now.Month,1))
             {
                 MessageBox.Show("A Data de Validade do cartão deve ser maior ou igual a atual");
                 return;
@@ -99,6 +99,10 @@ namespace umfg.venda.app.Commands
                 numeroADobrarValor = !numeroADobrarValor;
             }
             return soma%10==0;
+        }
+        private void definirDataDeValidadeDoCartao(ReceberPedidoViewModel vm)
+        {
+            vm.DataValidade = new DateTime(vm.AnoSelecionado, vm.MesSelecionado, 1);
         }
     }
 }
