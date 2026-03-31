@@ -1,10 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\mathe\\OneDrive\\Desktop\\trabalhoWpf\\",
+  "WorkspaceRootPath": "C:\\trabalhoWpf\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{620F96D0-973B-D132-D15E-995341BD21F2}|umfg.venda.app.csproj|c:\\users\\mathe\\onedrive\\desktop\\trabalhowpf\\usercontrols\\ucreceberpedido.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{620F96D0-973B-D132-D15E-995341BD21F2}|umfg.venda.app.csproj|c:\\trabalhowpf\\usercontrols\\ucreceberpedido.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{620F96D0-973B-D132-D15E-995341BD21F2}|umfg.venda.app.csproj|solutionrelative:usercontrols\\ucreceberpedido.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{620F96D0-973B-D132-D15E-995341BD21F2}|umfg.venda.app.csproj|c:\\trabalhowpf\\models\\produtomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{620F96D0-973B-D132-D15E-995341BD21F2}|umfg.venda.app.csproj|solutionrelative:models\\produtomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,11 +26,24 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProdutoModel.cs",
+              "DocumentMoniker": "C:\\trabalhoWpf\\Models\\ProdutoModel.cs",
+              "RelativeDocumentMoniker": "Models\\ProdutoModel.cs",
+              "ToolTip": "C:\\trabalhoWpf\\Models\\ProdutoModel.cs",
+              "RelativeToolTip": "Models\\ProdutoModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T18:34:49.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "ucReceberPedido.xaml",
-              "DocumentMoniker": "C:\\Users\\mathe\\OneDrive\\Desktop\\trabalhoWpf\\UserControls\\ucReceberPedido.xaml",
+              "DocumentMoniker": "C:\\trabalhoWpf\\UserControls\\ucReceberPedido.xaml",
               "RelativeDocumentMoniker": "UserControls\\ucReceberPedido.xaml",
-              "ToolTip": "C:\\Users\\mathe\\OneDrive\\Desktop\\trabalhoWpf\\UserControls\\ucReceberPedido.xaml",
+              "ToolTip": "C:\\trabalhoWpf\\UserControls\\ucReceberPedido.xaml",
               "RelativeToolTip": "UserControls\\ucReceberPedido.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-03-19T19:24:36.568Z",
