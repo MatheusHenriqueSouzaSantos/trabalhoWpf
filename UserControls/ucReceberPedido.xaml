@@ -76,7 +76,8 @@
                 <TextBox 
                   Text="{Binding CVV, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
                   FontSize="24"
-                  FontWeight="SemiBold"/>
+                  FontWeight="SemiBold"
+                  MaxLength="3"/>
 
             </StackPanel>
             <StackPanel Orientation="Vertical" Grid.Row="4" Width="600">
