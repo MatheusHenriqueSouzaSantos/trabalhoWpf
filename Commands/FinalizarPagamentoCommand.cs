@@ -16,9 +16,9 @@ namespace umfg.venda.app.Commands
         {
             ReceberPedidoViewModel vm= (ReceberPedidoViewModel)parameter;
             definirDataDeValidadeDoCartao(vm);
-            if (vm.NumeroCartao == null)
+            if (string.IsNullOrWhiteSpace(vm.NumeroCartao))
             {
-                MessageBox.Show("O Campo Numero no cartão é obrigatório!");
+                MessageBox.Show("O Campo Numero do Cartão é obrigatório!");
                 return;
             }
             if (!VerificarSeCartaoEhValido(vm.NumeroCartao))
@@ -26,14 +26,14 @@ namespace umfg.venda.app.Commands
                 MessageBox.Show("Numero de cartão Inválido");
                 return;
             }
-            if (vm.CVV == null)
+            if (string.IsNullOrWhiteSpace(vm.CVV))
             {
                 MessageBox.Show("O CVV é Obrigatório!");
                 return;
             }
             if (!vm.CVV.All(char.IsDigit))
             {
-                MessageBox.Show("O Cvv deve apenas numeros");
+                MessageBox.Show("O Cvv deve conter apenas numeros");
                 return;
             }
             if (vm.CVV.Length != 3)
@@ -49,10 +49,10 @@ namespace umfg.venda.app.Commands
 
             if (vm.DataValidade < new DateTime(DateTime.Now.Year,DateTime.Now.Month,1))
             {
-                MessageBox.Show("A Data de Validade do cartão deve ser maior ou igual a atual");
+                MessageBox.Show("A Data de Validade do cartão deve ser maior ou igual a data atual");
                 return;
             }
-            if (vm.NomeCartao == null)
+            if (string.IsNullOrWhiteSpace(vm.NomeCartao))
             {
                 MessageBox.Show("O Campo nome no cartão é obrigatório!");
                 return;

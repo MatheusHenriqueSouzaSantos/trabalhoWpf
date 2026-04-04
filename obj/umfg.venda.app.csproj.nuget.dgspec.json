@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mathe\\OneDrive\\Desktop\\trabalhoWpf\\umfg.venda.app.csproj": {}
+    "C:\\trabalhoWpf\\umfg.venda.app.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mathe\\OneDrive\\Desktop\\trabalhoWpf\\umfg.venda.app.csproj": {
+    "C:\\trabalhoWpf\\umfg.venda.app.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mathe\\OneDrive\\Desktop\\trabalhoWpf\\umfg.venda.app.csproj",
+        "projectUniqueName": "C:\\trabalhoWpf\\umfg.venda.app.csproj",
         "projectName": "umfg.venda.app",
-        "projectPath": "C:\\Users\\mathe\\OneDrive\\Desktop\\trabalhoWpf\\umfg.venda.app.csproj",
+        "projectPath": "C:\\trabalhoWpf\\umfg.venda.app.csproj",
         "packagesPath": "C:\\Users\\mathe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mathe\\OneDrive\\Desktop\\trabalhoWpf\\obj\\",
+        "outputPath": "C:\\trabalhoWpf\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
