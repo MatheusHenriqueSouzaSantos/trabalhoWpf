@@ -31,7 +31,7 @@ namespace umfg.venda.app.Commands
             }
             if (vm.Pedido.Produtos.Count == 0)
             {
-                MessageBox.Show("É necessário ter pelo menos um produto no carrinho");
+                MessageBox.Show("É necessário ter pelo menos um produto no carrinho para prosseguir para o recebimento");
                 return;
             }
 
